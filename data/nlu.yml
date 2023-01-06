@@ -1,0 +1,141 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hola
+    - buenos días
+    - buenas tardes
+    - bro
+    - que tal
+
+- intent: goodbye
+  examples: |
+    - adios
+    - bye
+    - me voy
+    - hasta luego
+    - hasta nunca
+    - nos vemos
+    - see you
+    - salir
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - of course
+    - correct
+    - si
+    - S
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - no lo creo
+    - no es asi
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+
+- intent: temario
+  examples: |
+    - temario
+    - qué sabes hacer?
+    - que sabes?
+    - temas
+    - ayuda
+    - ayudame
+    - help
+
+
+- intent: definicion
+  examples: |
+    - definición
+    - explicación
+    - descripción
+    - practicas
+
+- intent: horas
+  examples: |
+    - horas
+    - duración
+    - Cuantas horas debo cubrir?
+    - cuantas horas debo hacer?
+
+- intent: empresa
+  examples: |
+    - empresa
+    - organización vinculada
+    - donde puedo hacer mis practicas?
+    - características de la empresa
+
+- intent: objetivo
+  examples: |
+    - objetivo
+    - fin de las practicas
+
+- intent: requisitos
+  examples: |
+    - requisitos
+    - cuáles son los requisitos para cursar practicas?
+    - que se necesita para cursar practicas?
+
+- intent: informes
+  examples: |
+    - informes
+    - dudas
+    - coordinación
+    - quien es el coordinador de practicas de ingeniería de software?
+    - LIS
+
+- intent: titulacion
+  examples: |
+    - titulacion
+    - experiencia recepcional
+    - memoria
+    - me puedo titular por practicas?
+    - egel
+    - ceneval
+    - examen profesional
+
+- intent: derechos_estudiantes
+  examples: |
+    - derechos estudiantes
+    - cuales son mis derechos?
+
+- intent: obligaciones_estudiantes
+  examples: |
+    - obligaciones estudiantes
+    - cuales son mis obligaciones?
+
+- intent: derechos_ov
+  examples: |
+    - derechos ov
+    - derechos organizacion vinculada
+    - derechos empresa
+
+- intent: obligaciones_ov
+  examples: |
+    - obligaciones ov
+    - obligaciones organizacion vinculada
+    - obligaciones empresa
+
+- intent: entregables
+  examples: |
+    - entregables
+    - que documentos debo entregar?
+    - documentos
+    - acreditación
+    - calificación
+    

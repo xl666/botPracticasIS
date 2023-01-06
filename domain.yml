@@ -1,0 +1,253 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - help
+  - definicion
+  - horas
+  - ov
+  - objetivo
+  - requisitos
+  - informes
+  - titulacion
+  - derechos_estudiantes
+  - derechos_ov
+  - obligaciones_estudiantes
+  - obligaciones_ov
+  - entregables
+  - temario
+
+responses:
+  utter_greet:
+  - text: "Hola, ¿Cómo estás?"
+  - text: "Hola"
+  - text: "Mucho gusto en saludarte"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "¿Necesitas ayuda?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Adiós"
+  - text: "ten un buen día"
+
+  utter_iamabot:
+  - text: "I soy un bot, patrocinado por la FEI, UV."
+
+  utter_definicion:
+  - text: |
+      - Las prácticas profesionales son actividades curriculares, incluidas en 
+      experiencias educativas específicas de carácter cursativo del área de
+      formación disciplinar de los programas educativos, que permiten la formación 
+      integral el alumno y se constituyen como actividades de vinculación que 
+      promueve la Facultad con los sectores público, privado y social.
+      - La práctica profesional representa una oportunidad valiosa para que el 
+      futuro profesionista se vincule al sector laboral.
+      - A través de estas actividades afines a su disciplina, el alumno adquiere 
+      experiencia y desarrolla las competencias necesarias en el mercado laboral.
+
+  utter_horas:
+  - text: "Se debe cubrir un mínimo de 420 hrs. para acreditar las prácticas 
+  profesionales en la Licenciatura en Ingeniería de Software."
+  
+  utter_ov:
+  - text: |
+      - La Organización Vinculada podrá ser cualquier entidad del sector 
+      productivo o de gobierno, que esté legalmente constituida.
+      - La empresa o departamento debededicarse al desarrollo de Software y 
+      tener un proyecto de desarrollo activo.
+      - El estudiante participará en el proyecto de desarrollo de software en 
+      una o más etapas del ciclo de vida de desarrollo de Software.
+      - La Organizción deberá designar un Responsable Técnico del proyecto, 
+      quien deberá asegurar la ejecución del mismo, así como realizar dos 
+      evaluaciones parciales y una final correspondiente a cada alumno 
+      designado.
+      - La Organización deberá registrar sus proyectos en las fechas 
+      establecidas en el calendario del procedimiento de la EE, con la 
+      finalidad de que la COE, conozca con anticipación la oferta y pueda 
+      realizar el proceso de evaluación y designación adecuadamente.
+
+  utter_objetivo:
+  - text: |
+      Desarrollar un proyecto de software, mediante el empleo de fundamentos
+      metodológicos y el cumplimiento de un proceso administrado, con trabajo
+      solidario y colaborativo, con un alto sentido de responsabilidad
+      y tolerancia, a fin de atender una necesidad específica del entorno
+  
+  utter_informes:
+  - text: |
+      - Dr. Ángel Juan Sánchez García
+      - angesanchez@uv.mx
+      - Coordinador de Servicio Social y Prácticas profesionales de la LIS
+ 
+
+  utter_requisitos:
+  - text: |
+      Requisitos obligatorios:
+        - Tener acreditadas todas las experiencias educativas hasta sexto 
+        bloque.
+        - No cursar servicio social a la par de Prácticas de Ingeniería de 
+        Software.
+        - Visto bueno de su tutor.
+      Requisitos sugeridos:
+        - Tener una empresa donde cursar las prácticas.
+        - Haber cursado Desarrollo de sistemas web.
+        - Haber acreditado el Servicio Social.
+
+ 
+  utter_titulacion:
+  - text: |
+      - Se puede acreditar la experiencia recepcional, tomando como
+      - trabajo, la memoria de sus Prácticas profesionales.
+
+  utter_derechos_estudiantes:
+  - text: |
+      - Realizar actividades de acuerdo con los fines de la EE.
+      - Recibir un trato digno, respetuoso y profesional por parte del personal 
+      de la OV. 
+      - Recibir información sobre el reglamento interno de la OV al inicio de la EE. 
+      - Recibir asesoría adecuada y oportuna por parte del personal académico de 
+      a EE, para su desempeño. 
+      - Recibir asesoría especializada por parte del personal académico asesor de 
+      a EE, en la medida de la disponibilidad de los asesores voluntarios.
+      - Tener disponibles los recursos necesarios para el óptimo desempeño de las 
+      ctividades correspondientes a la EE, por parte de la OV. 
+      - Ser atendido por el personal académico de la EE, en caso de cambios en las 
+      ndiciones y actividades acordadas en el proyecto asignado. 
+      - Solicitar reasignación en caso de que se incurra en faltas graves por parte 
+      de la OV. 
+      - Conocer la valoración correspondiente a los informes parciales, por parte 
+      el personal académico de la EE, generada conforme al cumplimiento del plan 
+      de trabajo acordado con la OV y la calidad de los productos comprometidos 
+      entregados. 
+      - Recibir una constancia que avale el desarrollo del trabajo realizado en 
+      a EE, por parte de la OV.
+
+  utter_derechos_ov:
+  - text: |
+      - Recibir información acerca de los procedimientos para registrar proyectos 
+      en la EE.
+      - Mantener comunicación constante con el personal académico de la EE.
+      - Presentar ante el personal académico de la EE, el Jefe de Carrera y al 
+      Director de la Facultad de Estadística e Informática, problemas o 
+      inconformidades con respecto al desempeño del alumno. El caso será analizado 
+      resuelto en tiempo informa por la COE, quien deberá dar respuesta a la OV.
+      - Registrar y someter a evaluación de pertinencia por parte de la COE y 
+      la CEE, los proyectos para la EE, quienes autorizarán y designarán al alumno
+      para la atención de dicho proyecto, con base al resultado de pertinencia,
+      disponibilidad del alumno y la planeación académica correspondiente.
+      - Aceptar o rechazar por escrito fundada y justificadamente a un alumno 
+      designado.
+      - Solicitar la baja de o reemplazo del alumno, en caso de incumplimiento 
+      alguno por parte del mismo.
+      - Requerir la firma de los instrumentos de confidencialidad por parte del
+       alumno, para la protección de la información proporcionada que considere 
+       reservada, bajo formato consensado entre la Universidad Veracruzana y la OV.
+      - La OV, sea o no parte de la Universidad Veracruzana, deberá registrar sus
+      proyectos en las fechas establecidas en el calendario del procedimiento de 
+      la EE, con la finalidad de que la COE, conozca con anticipación la oferta y 
+      pueda realizar el proceso de evaluación y designación adecuadamente. 
+      En caso contrario, el proyecto no será tomado en cuenta en la EE, en 
+      el siguiente período escolar.
+      - Conocer el plan de estudios y el perfil de egreso de la LIS.
+      - Ofrecer a todo el personal interviniente en el proceso de la EE, 
+      principalmente al alumno, un trato digno, de consideración, respeto y 
+      profesionalismo.
+      - Proveer los elementos suficientes, así como los apoyos necesarios, 
+      tanto en lo administrativo, como en lo operativo y financiero, si es 
+      que aplica, para la consecución de los objetivos del proyecto registrado 
+      en la EE.
+
+  utter_obligaciones_estudiantes:
+  - text: |
+      - Cumplir las disposiciones del presente Reglamento.
+      - Cumplir con las sesiones de seguimiento, valoración y asesoría, en las 
+      horas y el lugar establecidos para la EE.
+      - Acatar las disposiciones y los reglamentos de la OV.
+      - Hacer un uso adecuado de los materiales, útiles y equipo que se le 
+      confíe para el desarrollo de sus actividades.
+      - Participar en cursos de capacitación o adiestramiento, o actividades 
+      de inducción que se determinen entre el  personal académico de la EE y la OV.
+      - Manifestar un alto sentido de disposición, responsabilidad y honradez 
+      en la realización de las actividades encomendadas.
+      - Ofrecer un trato digno y conducirse con respeto y profesionalismo con 
+      todo el personal de la OV, del COE, del CEE, el personal académico de la 
+      EE y el personal académico asesor designado.
+      - Elaborar, según el calendario de la EE, los reportes mensuales bajo el 
+      formato que para tales efectos se establece en el presente Reglamento.
+      - Firmar los instrumentos de confidencialidad requeridos por la OV, y 
+      cumplir con la reserva debida de la información.
+      - Guardar y hacer guardar, el buen nombre de la LIS, la Facultad de 
+      Estadística e Informática, la Universidad Veracruzana y el personal 
+      académico, ante la OV.
+      - Informar por escrito y oportunamente al personal académico de la EE, 
+      las irregularidades que se presenten y que perjudiquen la realización de 
+      las actividades que le fueron encomendadas.
+
+  utter_obligaciones_ov:
+  - text: |
+      - La OV, sea o no parte de la Universidad Veracruzana, deberá registrar 
+        sus proyectos en las fechas establecidas en el calendario del procedimiento 
+        e la EE, con la finalidad de que la COE, conozca con
+        anticipación la oferta y pueda realizar el proceso de evaluación
+        y designación adecuadamente. En caso contrario, el proyecto no
+        será tomado en cuenta en la EE, en el siguiente período escolar.
+      - Conocer el plan de estudios y el perfil de egreso de la LIS.
+      - Ofrecer a todo el personal interviniente en el proceso de la EE, 
+      principalmente al alumno, un trato digno, de consideración, respeto y 
+      profesionalismo.
+      - Proveer los elementos suficientes, así como los apoyos necesarios, 
+      tanto en lo administrativo, como en lo operativo y financiero, si es que 
+      aplica, para la consecución de los objetivos del proyecto registrado en la EE.
+      - Deberá proporcionar al alumno los reglamentos internos a los que estará 
+      sujeto durante la ejecución del proyecto en la EE.
+      - Designar un Responsable Técnico del proyecto, quien deberá asegurar la 
+      ejecución del mismo, así como realizar dos evaluaciones parciales y una final
+      correspondiente a cada alumno designado, integradas a los reportes de avance y final,
+      de acuerdo a las fechas señaladas para tal efecto en el calendario de procedimiento
+      de la EE, bajo el formato indicado por el personal académico de la EE.
+      - Supervisar el desempeño del alumno.
+      - Permitir a la Universidad Veracruzana, supervisar y verificar el 
+      cumplimiento de los proyectos inscritos y bajo ejecución en la EE.
+      - Informar por escrito al personal académico de la EE, cualquier 
+      incumplimiento relacionado a las actividades del alumno o cambios 
+      de Responsable Técnico del proyecto designado por su parte.
+
+  utter_entregables:
+  - text: |
+      - Documentos iniciales: Oficio de asignación firmado, carta de aceptación, 
+      horario firmado y plan de actividades.
+      - Cuatro reportes mensuales.
+      - Primer informe del estudiante de 210 hrs.
+      - Segundo informe del estudiante de 420 hrs.
+      - Primer evaluación de la Organización vinculada.
+      - Segunda evaluación de la Organización vinculada.
+      - Primera evaluación de profesores.
+      - Segunda evaluación de profesores.
+      - Autoevaluación del estudiante.
+
+  utter_temario:
+  - text: |
+      - Definición.
+      - Horas.
+      - Organización vinculada.
+      - objetivo.
+      - Requisitos.
+      - Informes.
+      - Titulación.
+      - Derechos de los estudiantes.
+      - Obligaciones de los estudiantes.
+      - Derechos de la organización vinculada.
+      - Obligaciones de la organización vinculada.
+      - Entregables.
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
