@@ -63,7 +63,7 @@ responses:
       tener un proyecto de desarrollo activo.
       - El estudiante participará en el proyecto de desarrollo de software en 
       una o más etapas del ciclo de vida de desarrollo de Software.
-      - La Organizción deberá designar un Responsable Técnico del proyecto, 
+      - La Organización deberá designar un Responsable Técnico del proyecto, 
       quien deberá asegurar la ejecución del mismo, así como realizar dos 
       evaluaciones parciales y una final correspondiente a cada alumno 
       designado.
@@ -102,8 +102,8 @@ responses:
  
   utter_titulacion:
   - text: |
-      - Se puede acreditar la experiencia recepcional, tomando como
-      - trabajo, la memoria de sus Prácticas profesionales.
+      Se puede acreditar la experiencia recepcional, tomando como
+      trabajo, la memoria de sus Prácticas profesionales.
 
   utter_derechos_estudiantes:
   - text: |
@@ -233,6 +233,7 @@ responses:
 
   utter_temario:
   - text: |
+      Puedo hablarte de los siguientes temas:
       - Definición.
       - Horas.
       - Organización vinculada.
